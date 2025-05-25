@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "story-ai-app",
+    "name": "Ai-Tale",
     "slug": "story-ai-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/app-icon.jpeg",
     "scheme": "storyaiapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
