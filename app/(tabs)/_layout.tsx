@@ -1,7 +1,7 @@
-import { Tabs } from 'expo-router'
+import {Tabs} from 'expo-router'
 import React from 'react'
-import { useSafeAreaInsets } from 'react-native-safe-area-context'
-import { Ionicons } from '@expo/vector-icons';
+import {useSafeAreaInsets} from 'react-native-safe-area-context'
+import {Ionicons} from '@expo/vector-icons';
 
 export default function TabsLayout() {
 
@@ -11,7 +11,7 @@ export default function TabsLayout() {
         screenOptions={{
             headerShown: false,
             tabBarShowLabel: false,
-            tabBarActiveTintColor: '#facc14',
+            tabBarActiveTintColor: '#FACC14',
             tabBarInactiveTintColor: '#fff',
             tabBarStyle: {
                 height: 25 + insets.bottom,
@@ -20,7 +20,7 @@ export default function TabsLayout() {
                 flexDirection: 'row',
                 alignItems: 'center',
                 marginHorizontal: 34,
-                shadowOffset: { width: 0, height: 10 },
+                shadowOffset: {width: 0, height: 10},
                 shadowRadius: 10,
                 shadowOpacity: 0.1,
                 borderRadius: 20,
@@ -33,8 +33,8 @@ export default function TabsLayout() {
             name='index'
             options={{
                 title: 'Home',
-                tabBarIcon: ({ color, size }) => (
-                    <Ionicons name='home' size={size} color={color} />
+                tabBarIcon: ({color, size}) => (
+                    <Ionicons name='home' size={size} color={color}/>
                 )
             }}
         />
@@ -42,8 +42,8 @@ export default function TabsLayout() {
             name='create'
             options={{
                 title: 'Create',
-                tabBarIcon: ({ color, size }) => (
-                    <Ionicons name='add-outline' size={size} color={color} />
+                tabBarIcon: ({color, size}) => (
+                    <Ionicons name='add-outline' size={size} color={color}/>
                 )
             }}
         />
@@ -51,8 +51,8 @@ export default function TabsLayout() {
             name='story'
             options={{
                 title: 'Story',
-                tabBarIcon: ({ color, size }) => (
-                    <Ionicons name='albums-outline' size={size} color={color} />
+                tabBarIcon: ({color, size}) => (
+                    <Ionicons name='albums-outline' size={size} color={color}/>
                 )
             }}
         />
@@ -60,8 +60,8 @@ export default function TabsLayout() {
             name='settings'
             options={{
                 title: 'Settings',
-                tabBarIcon: ({ color, size }) => (
-                    <Ionicons name='cog-outline' size={size} color={color} />
+                tabBarIcon: ({color, size}) => (
+                    <Ionicons name='cog-outline' size={size} color={color}/>
                 )
             }}
         />

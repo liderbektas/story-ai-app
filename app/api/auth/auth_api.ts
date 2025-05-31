@@ -3,6 +3,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import axios, { AxiosError } from "axios"
 import { router } from "expo-router";
 import { Alert } from "react-native";
+import {SEX_ENUM} from "@/enum/sex";
 
 type registerStep1DataProps = {
     email: string,
@@ -14,6 +15,7 @@ interface RegisterStep2DataProps {
     email?: string;
     age_group: string;
     language: string;
+    sex: SEX_ENUM
 }
 
 type loginDataProps = {
@@ -40,13 +42,13 @@ export const registerStep1API = async (registerStep1Data: registerStep1DataProps
 }
 
 export const registerStep2API = async (registerStep2Data: RegisterStep2DataProps) => {
-    console.log(registerStep2Data);
     try {
         await axios.post('http://127.0.0.1:8000/register/step2', {
             full_name: registerStep2Data.full_name,
             email: registerStep2Data.email,
             age_group: registerStep2Data.age_group,
             language: registerStep2Data.language,
+            sex: registerStep2Data.sex
         });
         router.push('/(auth)')
         Alert.alert('Success', 'Registered Succesfully');

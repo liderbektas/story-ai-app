@@ -25,14 +25,14 @@ export default function OnboardIndex() {
 
           <View className="items-center mb-16 space-y-5 gap-y-4">
             <TouchableOpacity
-              className="bg-[#3b82f6] w-64 py-4 rounded-full shadow-lg"
+              className="bg-white/10  w-64 py-4 rounded-full border border-white/30"
               onPress={() => router.push('/(auth)')}
             >
               <Text className="text-center text-white font-semibold text-xl">Login</Text>
             </TouchableOpacity>
 
             <TouchableOpacity
-              className="bg-white/10 w-64 py-4 rounded-full border border-white/30"
+                className="bg-[#3b82f6] w-64 py-4 rounded-full shadow-lg"
               onPress={() => router.push('/(auth)/register-step1')}
             >
               <Text className="text-center text-white font-semibold text-xl">Register</Text>
