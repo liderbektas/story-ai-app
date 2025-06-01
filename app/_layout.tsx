@@ -2,7 +2,7 @@ import { Stack } from "expo-router";
 import './globals.css';
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query"
 import { Provider } from "react-redux";
-import { store } from "./store/store";
+import { store } from "@/app/store/store";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 const queryClient = new QueryClient()

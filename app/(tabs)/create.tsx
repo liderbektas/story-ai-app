@@ -19,7 +19,7 @@ import {
     BottomSheetModalProvider,
     BottomSheetBackdrop
 } from '@gorhom/bottom-sheet'
-import {useAuth} from '../store/hooks'
+import {useAuth} from '@/app/store/hooks'
 import {createStoryAPI} from "@/app/api/story/story_api";
 
 export default function CreateStory() {

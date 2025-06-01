@@ -1,7 +1,7 @@
 import {View, Text, Button, ImageBackground} from 'react-native'
 import React, {useEffect} from 'react'
 import {logoutAPI} from '@/app/api/auth/auth_api'
-import {useAuth} from '../store/hooks'
+import {useAuth} from '@/app/store/hooks'
 import {useRouter} from 'expo-router'
 
 export default function HomePage() {

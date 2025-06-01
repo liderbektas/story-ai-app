@@ -5,28 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed950ca7-0a1b-4726-b544-9d336ce5cf7c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/story/[id].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/create-story.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/story-details/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/use-my-stories/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/forgot-password.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/forgot-password.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/register-step1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/register-step1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/register-step2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/register-step2.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/reset-pasword.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/reset-pasword.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(tabs)/create.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/create.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/settings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/settings.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(tabs)/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/auth/auth_api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/auth/auth_api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/story/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/story/story_api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/onboard/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/onboard/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/onboard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/onboard/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/store/auth/slice/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/store/auth/slice/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/story/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/story/[id].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/story-details/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/story-details/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +54,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images" />
-      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/app/story-details" />
     </key>
   </component>
@@ -95,11 +82,23 @@
       <workItem from="1748329344989" duration="4835000" />
       <workItem from="1748336380152" duration="1389000" />
       <workItem from="1748429268541" duration="1519000" />
-      <workItem from="1748598633158" duration="11562000" />
+      <workItem from="1748598633158" duration="12470000" />
+      <workItem from="1748775474382" duration="8185000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

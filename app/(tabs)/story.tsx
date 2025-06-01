@@ -62,7 +62,12 @@ export default function MyStory() {
                     ) : (
                         data?.map((story: any, index: number) => (
                             <TouchableOpacity
-                                onPress={() => router.push(`/story/${story.story_id}`)}
+                                onPress={() =>
+                                    router.push({
+                                        pathname: `/story/${story.story_id}`,
+                                        params: { index: index.toString() },
+                                    })
+                                }
                                 key={index}
                                 activeOpacity={0.85}
                             >
