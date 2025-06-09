@@ -8,9 +8,6 @@ import {
     TouchableOpacity,
     RefreshControl,
 } from 'react-native';
-import {useQuery} from '@tanstack/react-query';
-import {useAuth} from '@/app/store/hooks';
-import {getMyStoriesAPI} from '@/app/api/story/story_api';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {Feather} from '@expo/vector-icons';
 import {useRouter} from "expo-router";

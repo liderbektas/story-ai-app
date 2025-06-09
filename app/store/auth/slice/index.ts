@@ -6,7 +6,8 @@ interface User {
     full_name: string;
     age_group: string,
     email: string,
-    language: string
+    language: string,
+    sex: string
 }
 
 interface AuthState {

@@ -6,12 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ed950ca7-0a1b-4726-b544-9d336ce5cf7c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/create.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/create.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/forgot-password.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/forgot-password.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/register-step2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/register-step2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/settings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/settings.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(tabs)/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/store/auth/slice/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/store/auth/slice/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/story/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/story/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/story-details/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/story-details/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -83,7 +83,12 @@
       <workItem from="1748336380152" duration="1389000" />
       <workItem from="1748429268541" duration="1519000" />
       <workItem from="1748598633158" duration="12470000" />
-      <workItem from="1748775474382" duration="8185000" />
+      <workItem from="1748775474382" duration="8212000" />
+      <workItem from="1748809746039" duration="650000" />
+      <workItem from="1748873969190" duration="382000" />
+      <workItem from="1749387703698" duration="2888000" />
+      <workItem from="1749468394783" duration="626000" />
+      <workItem from="1749469025269" duration="6393000" />
     </task>
     <servers />
   </component>

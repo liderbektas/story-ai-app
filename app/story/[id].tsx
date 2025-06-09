@@ -1,13 +1,14 @@
 import {ScrollView, Text, View, TouchableOpacity, Image} from "react-native";
-import {Stack, useGlobalSearchParams, useRouter} from "expo-router";
+import {Stack, useGlobalSearchParams, usePathname, useRouter, useSegments} from "expo-router";
 import React, {useState} from "react";
 import {SafeAreaView} from "react-native-safe-area-context";
 import useStoryDetails from "@/hooks/story-details";
 import {Ionicons} from '@expo/vector-icons';
 import {BlurView} from "expo-blur";
-import {speakText, stopSpeak} from "@/app/lib/speech";
+import {speakText, stopSpeak} from "@/app/lib/speech/index";
 
 export default function StoryDetails() {
+
     const {id} = useGlobalSearchParams();
     const router = useRouter();
     const {data} = useStoryDetails({id});
@@ -74,7 +75,7 @@ export default function StoryDetails() {
                 <BlurView
                     intensity={60}
                     tint="light"
-                    className="relative top-0 left-0 h-[520px] rounded-t-[60px] z-10 border border-white/20 overflow-hidden p-4"
+                    className="relative top-0 left-0 h-[620px] rounded-t-[60px] z-10 border border-white/20 overflow-hidden p-4"
                 >
                     <ScrollView
                     >

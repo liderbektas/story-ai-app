@@ -13,9 +13,9 @@ import {
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {useLocalSearchParams, useRouter} from 'expo-router';
 import {Dropdown} from 'react-native-element-dropdown';
-import {AGE_RANGES, LANGUAGES} from '../utils/utils';
-import {SEX_ENUM, SEX_OPTIONS} from "@/enum/sex";
 import {registerStep2API} from "@/app/api/auth/auth_api";
+import {SEX_ENUM, SEX_OPTIONS} from "@/enum/sex";
+import {AGE_RANGES, LANGUAGES} from "@/app/utils/utils";
 
 type UserStep2State = {
     name: string;
