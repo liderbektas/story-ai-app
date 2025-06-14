@@ -3,6 +3,7 @@ import {router} from "expo-router";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export default function Index() {
+
     useEffect(() => {
         const checkUser = async () => {
             const userDataRaw = await AsyncStorage.getItem('user');

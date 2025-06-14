@@ -2,10 +2,10 @@ import {ScrollView, Text, View, TouchableOpacity, Image} from "react-native";
 import {Stack, useGlobalSearchParams, usePathname, useRouter, useSegments} from "expo-router";
 import React, {useState} from "react";
 import {SafeAreaView} from "react-native-safe-area-context";
-import useStoryDetails from "@/hooks/story-details";
+import useStoryDetails from "@/src/hooks/story-details";
 import {Ionicons} from '@expo/vector-icons';
 import {BlurView} from "expo-blur";
-import {speakText, stopSpeak} from "@/app/lib/speech/index";
+import {speakText, stopSpeak} from "@/src/lib/speech";
 
 export default function StoryDetails() {
 
@@ -41,7 +41,7 @@ export default function StoryDetails() {
             <Stack.Screen options={{headerShown: false}}/>
 
             <Image
-                source={require("../../assets/images/story-d1.png")}
+                source={require("@/src/assets/images/story-d1.png")}
                 resizeMode="cover"
                 className="absolute w-screen h-screen z-0"
                 blurRadius={1}

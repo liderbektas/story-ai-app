@@ -1,6 +1,6 @@
 import {useQuery} from "@tanstack/react-query";
-import {getMyStoriesAPI} from "@/app/api/story/story_api";
-import {useAuth} from "@/app/store/hooks";
+import {getMyStoriesAPI} from "@/src/api/story/story_api";
+import {useAuth} from "@/src/store/hooks";
 
 export default function useMyStories() {
 

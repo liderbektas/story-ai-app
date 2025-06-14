@@ -11,7 +11,7 @@ import {
 import React, {useState} from 'react';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {ImageBackground} from 'react-native';
-import {resetPasswordConfirmAPI} from "@/app/api/auth/auth_api";
+import {resetPasswordConfirmAPI} from "@/src/api/auth/auth_api";
 
 export default function ResetPassword() {
     const [code, setCode] = useState('');
@@ -41,7 +41,7 @@ export default function ResetPassword() {
 
     return (
         <ImageBackground
-            source={require('../../assets/images/forgot-password.png')}
+            source={require('@/src/assets/images/forgot-password.png')}
             style={{flex: 1}}
             resizeMode="cover"
         >

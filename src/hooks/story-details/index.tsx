@@ -1,6 +1,6 @@
 import {useQuery} from "@tanstack/react-query";
-import {getMyStoryDetailsAPI} from "@/app/api/story/story_api";
-import {useAuth} from "@/app/store/hooks";
+import {getMyStoryDetailsAPI} from "@/src/api/story/story_api";
+import {useAuth} from "@/src/store/hooks";
 
 type storyProps = {
     id: string | string[] | undefined;

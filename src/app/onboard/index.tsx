@@ -8,7 +8,7 @@ export default function OnboardIndex() {
 
   return (
     <ImageBackground
-      source={require('../../assets/images/auth.jpeg')}
+      source={require('@/src/assets/images/auth.jpeg')}
       style={{ flex: 1, width: '100%', height: '100%' }}
       resizeMode="cover"
     >

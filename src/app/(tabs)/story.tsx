@@ -11,7 +11,7 @@ import {
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {Feather} from '@expo/vector-icons';
 import {useRouter} from "expo-router";
-import useMyStories from "@/hooks/use-my-stories";
+import useMyStories from "@/src/hooks/use-my-stories";
 
 
 export default function MyStory() {
@@ -29,7 +29,7 @@ export default function MyStory() {
 
     return (
         <ImageBackground
-            source={require('../../assets/images/logo-1.png')}
+            source={require('@/src/assets/images/logo-1.png')}
             resizeMode="cover"
             style={{flex: 1}}
         >

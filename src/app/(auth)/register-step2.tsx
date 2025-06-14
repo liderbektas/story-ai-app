@@ -13,9 +13,9 @@ import {
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {useLocalSearchParams, useRouter} from 'expo-router';
 import {Dropdown} from 'react-native-element-dropdown';
-import {registerStep2API} from "@/app/api/auth/auth_api";
-import {SEX_ENUM, SEX_OPTIONS} from "@/enum/sex";
-import {AGE_RANGES, LANGUAGES} from "@/app/utils/utils";
+import {registerStep2API} from "@/src/api/auth/auth_api";
+import {SEX_ENUM, SEX_OPTIONS} from "@/src/enum/sex";
+import {AGE_RANGES, LANGUAGES} from "@/src/utils/utils";
 
 type UserStep2State = {
     name: string;
@@ -65,7 +65,7 @@ export default function RegisterStep2() {
 
     return (
         <ImageBackground
-            source={require('../../assets/images/login.jpeg')}
+            source={require('@/src/assets/images/login.jpeg')}
             style={{flex: 1}}
             resizeMode="cover"
         >

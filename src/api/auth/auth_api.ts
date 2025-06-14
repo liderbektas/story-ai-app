@@ -1,9 +1,9 @@
-import { setLogin, setLogout } from "@/app/store/auth/actions";
+import { setLogin, setLogout } from "@/src/store/auth/actions";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import axios, { AxiosError } from "axios"
 import { router } from "expo-router";
 import { Alert } from "react-native";
-import {SEX_ENUM} from "@/enum/sex";
+import {SEX_ENUM} from "@/src/enum/sex";
 
 type registerStep1DataProps = {
     email: string,

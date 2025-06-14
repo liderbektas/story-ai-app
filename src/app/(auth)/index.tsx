@@ -1,48 +1,49 @@
+import {useRouter} from 'expo-router';
 import React, {useState} from 'react';
 import {
-    View,
+    ImageBackground,
     Text,
     TextInput,
     TouchableOpacity,
-    ImageBackground,
+    View,
     KeyboardAvoidingView,
     Platform,
     Alert,
     ActivityIndicator,
+    StatusBar
 } from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import {useRouter} from 'expo-router';
-import {registerStep1API} from "@/app/api/auth/auth_api";
+import {loginAPI} from "@/src/api/auth/auth_api";
 
 type UserState = {
-    email: string;
+    username: string;
     password: string;
 };
 
-export default function RegisterStep1() {
+export default function Index() {
 
     const router = useRouter();
     const [userState, setUserState] = useState<UserState>({
-        email: '',
+        username: '',
         password: '',
     });
     const [loading, setLoading] = useState(false);
 
-    const handleChange = (field: keyof typeof userState, value: string) => {
+    const handleChange = (field: keyof UserState, value: string) => {
         setUserState(prev => ({...prev, [field]: value}));
     };
 
-    const handleRegister = async () => {
-        const {email, password} = userState;
-        if (!email || !password) {
+    const handleLogin = async () => {
+        const {username, password} = userState;
+        if (!username || !password) {
             Alert.alert('Error', 'Please fill all fields');
             return;
         }
         setLoading(true);
         try {
-            await registerStep1API(userState);
+            await loginAPI(userState);
         } catch (error: any) {
-            Alert.alert('Register error', error.message)
+            console.log(error);
         } finally {
             setLoading(false);
         }
@@ -50,16 +51,17 @@ export default function RegisterStep1() {
 
     return (
         <ImageBackground
-            source={require('../../assets/images/new-register.png')}
+            source={require('@/src/assets/images/logo-1.png')}
             style={{flex: 1}}
             resizeMode="cover"
         >
+            <StatusBar barStyle='light-content' backgroundColor='transparent' translucent/>
             <View style={{flex: 1, backgroundColor: 'rgba(30, 41, 59, 0.4)'}}>
                 <SafeAreaView className="flex-1 justify-between">
                     <View className="mt-28 items-center">
                         <Text className="text-white text-6xl font-extrabold tracking-widest">AI</Text>
                         <Text className="text-white text-4xl font-semibold tracking-wide mt-2">FAIRYTALES</Text>
-                        <Text className="text-white text-base opacity-70 mt-2">Create your magical account</Text>
+                        <Text className="text-white text-base opacity-70 mt-2">Welcome back. Let’s sign you in!</Text>
                     </View>
 
                     <KeyboardAvoidingView
@@ -67,14 +69,14 @@ export default function RegisterStep1() {
                         className="px-8 pb-10"
                     >
                         <View style={{backgroundColor: 'rgba(30, 41, 59, 0.6)'}} className="p-6 rounded-3xl">
+
                             <TextInput
                                 placeholder="Email"
                                 placeholderTextColor="#e5e7eb"
-                                value={userState.email}
-                                onChangeText={text => handleChange('email', text)}
+                                value={userState.username}
+                                onChangeText={text => handleChange('username', text)}
                                 keyboardType="email-address"
                                 autoCapitalize="none"
-                                autoCorrect={false}
                                 className="text-white bg-white/10 px-4 py-4 rounded-2xl mb-4"
                             />
                             <TextInput
@@ -87,27 +89,37 @@ export default function RegisterStep1() {
                             />
 
                             <TouchableOpacity
-                                onPress={handleRegister}
-                                className="bg-yellow-500 py-4 rounded-2xl mb-3 shadow-lg flex-row justify-center items-center"
+                                onPress={handleLogin}
                                 disabled={loading}
+                                className={`py-4 rounded-2xl mb-3 shadow-lg ${loading ? 'bg-yellow-300' : 'bg-yellow-500'}`}
                             >
-                                {loading && (
-                                    <ActivityIndicator
-                                        size="small"
-                                        color="#fff"
-                                        style={{marginRight: 10}}
-                                    />
-                                )}
-                                <Text className="text-center text-white text-lg font-semibold">
-                                    {loading ? 'Loading...' : 'Continou with step-2'}
+                                <View className="flex-row justify-center items-center">
+                                    {loading && (
+                                        <ActivityIndicator
+                                            size="small"
+                                            color="#fff"
+                                            style={{marginRight: 10}}
+                                        />
+                                    )}
+                                    <Text className="text-white text-lg font-semibold">
+                                        {loading ? 'Logging in...' : 'Login'}
+                                    </Text>
+                                </View>
+                            </TouchableOpacity>
+
+                            <TouchableOpacity onPress={() => router.push('/(auth)/forgot-password')} className="mb-4">
+                                <Text className="text-center text-white text-base underline">
+                                    Forgot Password?
                                 </Text>
                             </TouchableOpacity>
 
-                            <TouchableOpacity onPress={() => router.push('/(auth)')}>
+                            <TouchableOpacity onPress={() => router.push('/(auth)/register-step1')}>
                                 <Text className="text-center text-white text-base">
-                                    Already have an account? <Text className="underline text-base">Login</Text>
+                                    Don't have an account?{' '}
+                                    <Text className="underline text-base">Sign up</Text>
                                 </Text>
                             </TouchableOpacity>
+
                         </View>
                     </KeyboardAvoidingView>
                 </SafeAreaView>

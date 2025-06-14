@@ -12,7 +12,7 @@ import {
     ActivityIndicator,
 } from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import {resetPasswordAPI} from "@/app/api/auth/auth_api";
+import {resetPasswordAPI} from "@/src/api/auth/auth_api";
 
 
 export default function ForgotPassword() {

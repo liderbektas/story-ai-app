@@ -19,8 +19,8 @@ import {
     BottomSheetModalProvider,
     BottomSheetBackdrop
 } from '@gorhom/bottom-sheet'
-import {useAuth} from '@/app/store/hooks'
-import {createStoryAPI} from "@/app/api/story/story_api";
+import {useAuth} from '@/src/store/hooks'
+import {createStoryAPI} from "@/src/api/story/story_api";
 
 export default function CreateStory() {
 
@@ -68,7 +68,7 @@ export default function CreateStory() {
     return (
         <BottomSheetModalProvider>
             <ImageBackground
-                source={require('../../assets/images/create-story.png')}
+                source={require('@/src/assets/images/create-story.png')}
                 resizeMode="cover"
                 className="flex-1"
             >

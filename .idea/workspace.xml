@@ -6,14 +6,51 @@
   <component name="ChangeListManager">
     <list default="true" id="ed950ca7-0a1b-4726-b544-9d336ce5cf7c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/forgot-password.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/forgot-password.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/register-step2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/register-step2.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/settings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/settings.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/story.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/store/auth/slice/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/store/auth/slice/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/story/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/story/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/forgot-password.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/forgot-password.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/register-step1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/register-step1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/register-step2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/register-step2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/reset-pasword.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/reset-pasword.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(tabs)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/create.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(tabs)/create.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(tabs)/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/settings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(tabs)/settings.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/story.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(tabs)/story.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/auth/auth_api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/auth/auth_api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/story/story_api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/story/story_api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/speech/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/speech/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/onboard/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/onboard/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/onboard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/onboard/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/store/auth/actions/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/auth/actions/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/store/auth/slice/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/auth/slice/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/store/hooks/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/hooks/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/story/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/story/[id].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils/tabbar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/tabbar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Comfortaa-VariableFont_wght.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/Comfortaa-VariableFont_wght.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Nunito-VariableFont_wght.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/Nunito-VariableFont_wght.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/SpaceMono-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/SpaceMono-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/app-icon.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/app-icon.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/auth.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/auth.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/create-story.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/create-story.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/forgot-password.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/forgot-password.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/login.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/login.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/logo-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/new-auth.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/new-auth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/new-register.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/new-register.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/register.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/register.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/story-d1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/story-d1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/story-detail.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/story-detail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enum/sex.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/enum/sex.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/story-details/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/story-details/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/use-my-stories/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/use-my-stories/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metro.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/metro.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +91,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$/app/story-details" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -88,7 +125,11 @@
       <workItem from="1748873969190" duration="382000" />
       <workItem from="1749387703698" duration="2888000" />
       <workItem from="1749468394783" duration="626000" />
-      <workItem from="1749469025269" duration="6393000" />
+      <workItem from="1749469025269" duration="6466000" />
+      <workItem from="1749648812482" duration="1000" />
+      <workItem from="1749648893367" duration="117000" />
+      <workItem from="1749667269076" duration="143000" />
+      <workItem from="1749894097785" duration="866000" />
     </task>
     <servers />
   </component>

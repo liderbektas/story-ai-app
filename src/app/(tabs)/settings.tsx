@@ -16,7 +16,7 @@ import {
     BottomSheetModalProvider,
     BottomSheetBackdrop
 } from '@gorhom/bottom-sheet';
-import { useAuth } from "@/app/store/hooks";
+import { useAuth } from "@/src/store/hooks";
 
 export default function Settings() {
 
@@ -51,7 +51,7 @@ export default function Settings() {
     return (
         <BottomSheetModalProvider>
             <ImageBackground
-                source={require('../../assets/images/register.png')}
+                source={require('@/src/assets/images/register.png')}
                 resizeMode="cover"
                 className="flex-1"
             >
